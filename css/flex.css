@@ -1,0 +1,29 @@
+.flex {
+  height: 900px;
+  background: rgb(245, 245, 193);
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.flex div {
+  background: rgb(123, 5, 5);
+  color: white;
+  flex-grow: 1;
+  flex-basis: 100px;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+div {
+  border: 1px solid black;
+}
+
+/* diplay flex -- tranforma qualquer coisa em .flex
+flex wrap -- qudno não tem espaço joga pra baixo
+flex grow --- é equivalencia em usa se 0 e 1 
+space between
+space evelyn
+space around*/

@@ -1,0 +1,107 @@
+/* Normalização */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 150px;
+}
+
+/* Desktop */
+
+body {
+  margin-top: 150px;
+}
+
+header {
+  width: 100%;
+  background: rgb(47, 2, 2);
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+}
+
+header nav a {
+  text-decoration: none;
+}
+
+header nav a:visited {
+  color: white;
+}
+
+header img {
+  width: 90px;
+}
+
+nav {
+  color: white;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+nav ul li {
+  background: orange;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  background: rgb(244, 212, 153);
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 5px;
+  color: black;
+}
+
+.box {
+  width: 950px;
+  border: 1px solid rgb(66, 66, 66);
+  background: rgb(228, 228, 228);
+  padding: 40px;
+  margin: 40px auto;
+  position: relative;
+}
+
+.box h1 {
+  font-weight: 700;
+  margin: 20px 0px;
+}
+
+.box p {
+  text-align: justify;
+  line-height: 25px;
+}
+
+.box span {
+  background: rgba(50, 26, 26, 0.8);
+  color: white;
+  padding: 10px;
+  border: 3px solid white;
+  border-radius: 5px;
+  position: absolute;
+  left: 30px;
+  top: -25px;
+}
+
+.box .color_span {
+  background: white;
+  color: black;
+  border: 3px solid black;
+}

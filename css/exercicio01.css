@@ -1,0 +1,136 @@
+/* ---- Desktop ---- */
+
+body {
+  background: linear-gradient(#febe01, #000);
+  background-attachment: fixed;
+}
+h1 {
+  font-size: 70px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: bike;
+}
+@font-face {
+  font-family: bike;
+  src: url("/arquivos/BIKER-PersonalUse.otf");
+}
+h2 {
+  font-size: 35px;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0px;
+}
+
+hr {
+  width: 50%;
+  height: 10px;
+  background: #000000;
+  border: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 270px);
+  width: 1200px;
+  margin: 60px auto;
+  gap: 5px;
+  border: 3px solid red;
+  justify-content: center;
+  height: 1400px;
+  align-content: stretchs;
+}
+
+.box {
+  background: #000;
+  padding: 30px;
+  border-radius: 5px;
+  height: auto;
+}
+
+#box4 {
+  background: rgb(87, 2, 2);
+  grid-column: 1/-1;
+}
+
+p {
+  color: #b2b2b2;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+span {
+  color: #febe01;
+  font-weight: 700;
+}
+a {
+  background: #febe01;
+  color: #000;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight: bold;
+  border: #febf0100 solid 1px;
+}
+a:hover {
+  background: #000;
+  color: #febe01;
+  border: #febe01 solid 1px;
+}
+
+@font-face {
+  font-family: bikesimbol;
+  src: url("/arquivos/BIKES.ttf");
+}
+
+.simbolo {
+  width: 8%;
+  margin: 0 auto;
+  display: block;
+  border: 0;
+}
+
+/* <----- Tablet -----> */
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .grid {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 40px auto;
+    gap: 5px;
+  }
+
+  #box3 {
+    grid-column: 1/-1;
+  }
+
+  h1 {
+    margin: 2px auto;
+    font-size: 50px;
+  }
+}
+
+/* <----- Mobile -----> */
+
+@media (max-width: 768px) {
+  .grid {
+    width: 100%;
+    grid-template-columns: 1fr;
+    margin: 10px auto;
+    gap: 5px;
+  }
+
+  #box3 {
+    grid-column: 1/-1;
+  }
+
+  h1 {
+    margin: 2px auto;
+    font-size: 30px;
+  }
+
+  body {
+    background: linear-gradient(#d6d2d2, rgb(51, 51, 51));
+    background-attachment: fixed;
+  }
+}

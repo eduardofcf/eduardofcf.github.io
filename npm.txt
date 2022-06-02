@@ -1,0 +1,22 @@
+Conceito de NPM: O Google dos Frameworks
+Controle de versionamento
+Git
+Netlify / Deploy
+
+Instalar Node Js
+
+Instalar Git
+
+< -- Linux -- >
+
+LS -> Listar Diretorios
+Clear -> Limpar a tela
+cd<pasta> -> Entra na pasta
+de.. -> sair da pasta
+mkdir -> cria uma pasta
+touch -> criar um arquivo
+rm -> apagar arquivo
+rm - r -> apagar pasta 
+
+Instalar pelo npm
+clean css

@@ -1,0 +1,87 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(80, 84, 84, 1) 49%,
+    rgba(158, 158, 158, 1) 100%
+  );
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 100px;
+  font-family: titlesolution;
+}
+
+@font-face {
+  font-family: titlesolution;
+  src: url("/arquivos/TitleSolution.ttf");
+}
+
+p {
+  color: #fff;
+}
+
+hr {
+  width: 60%;
+  height: 15px;
+  background: rgb(255, 255, 255);
+}
+
+.texto {
+  width: 60%;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#codeimg {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+
+.videocode {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+
+.audiocyberpunk {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+
+button {
+  padding: 10px;
+  background: #fff;
+  color: rgb(0, 0, 0);
+  border-radius: 6px;
+  border: 8px ridge rgb(0, 0, 0);
+  transition: 0.6s;
+}
+
+button:hover {
+  background: #000;
+  color: #fff;
+  border: 8px ridge rgb(255, 254, 254);
+}
+
+.botoes {
+  width: 60%;
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#perfilimg {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+  border: solid #000 10px;
+}
